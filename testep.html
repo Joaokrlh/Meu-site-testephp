@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Login Page</title>
+		<style>
+				body {
+						margin: 0;
+						padding: 0;
+						background-color: #000; /* Fundo preto */
+						display: flex;
+						flex-direction: column;
+						justify-content: center;
+						align-items: center;
+						height: 100vh;
+						color: #fff; /* Texto branco */
+						text-align: center;
+				}
+
+				.login-container {
+						background-color: black; /* Fundo preto para o painel de login */
+						padding: 20px;
+						border-radius: 10px;
+						box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+						width: 205px; /* Largura do painel de login */
+				}
+
+				.login-container img {
+						width: 100%;
+						max-width: 140px; /* Tamanho médio da imagem */
+						height: auto;
+						margin-bottom: 10px; /* Espaço entre a imagem e o painel */
+						border-radius: 10px; /* Bordas arredondadas para a imagem */
+				}
+
+				.login-container h1 {
+						margin-top: 0;
+						color: red; /* Título em vermelho */
+				}
+
+				.login-container input {
+						width: 100%;
+						padding: 10px;
+						margin: 10px 0;
+						border: 1px solid #ddd; /* Borda cinza claro */
+						border-radius: 5px;
+						background-color: black; /* Fundo dos campos de input em preto */
+						color: red; /* Texto dos campos em vermelho */
+				}
+
+				.login-container button {
+						width: 100%;
+						padding: 10px;
+						background-color: black; /* Cor do botão */
+						border: none;
+						border-radius: 5px;
+						color: red; /* Texto do botão em vermelho */
+						font-size: 16px;
+						cursor: pointer;
+				}
+
+				.login-container button:hover {
+						background-color: black; /* Cor do botão ao passar o mouse */
+				}
+		</style>
+</head>
+<body>
+		<div class="login-container">
+				<img src="dorx.jpeg" alt="">
+				<h1>Доксбин </h1>
+				<form action="dashboard.html" method="get">
+						<input type="Nek9090" name="username" placeholder="Пользователь " required> 
+						<input type="password" name="password" placeholder="имя н " required> 
+						<button type="submit">Авторизоваться </button>
+				</form>
+		</div>
+</body>
